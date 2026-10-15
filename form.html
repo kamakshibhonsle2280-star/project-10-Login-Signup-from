@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height:700px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background :linear-gradient(90deg,skyblue,pink) ;
+        }
+        form{
+            height: 70%;
+            width: 30%;
+            margin-top: 80px;
+            background-color: white;
+            border-radius: 10px;
+        }
+        label{
+            border-radius: 10px;
+            /* background-color: lightblue; */
+            height: 40%;
+            width: 90%;
+        }
+        .user,.password,.button{
+            height: 25%;
+            width: 80%;
+            margin: auto;
+            margin-top:3%;
+            /* margin-left: 30px; */
+            /* border: 1px solid black; */
+
+
+        }
+        h1{
+            margin-top: 10%;
+        }
+        button{
+            background: linear-gradient(90deg,skyblue,pink);
+            /* margin-top: 10px; */
+            /* margin-left: 55px; */
+            height: 50%;
+            width: 100%;
+            border-radius: 10px;
+            border: none;
+        }
+        input{
+            height: 50%;
+            width: 100%;
+            margin-top: 3%;
+        }
+        .password>p{
+            margin-top: 5%;
+        }
+        .button>p{
+            text-align: center;
+            margin-top: 5%;
+            /* margin-left:90px; */
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <h1 align="center">Login form</h1>
+            <div class="user">
+                <label for="">Username</label><br>
+                <input type="text" placeholder="Kamakshibhonsle2280@gmail.com"><br>
+            </div>
+            <div class="password">
+                <label for="password">password</label><br>
+                <input type="password" placeholder="kamakshi123"><br>
+                <p>Forgot password?</p>
+                 </div>
+                 <div class="button">
+                    <button>Login</button>
+                 <p>Not a member? <a href="signup.html">sign_up_now</a></p>
+                 </div>
+        </form>
+    </div>
+    
+</body>
+</html>
